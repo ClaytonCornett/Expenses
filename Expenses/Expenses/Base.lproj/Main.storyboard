@@ -57,11 +57,10 @@
                                                 <constraint firstItem="Hp9-Jt-sdl" firstAttribute="top" secondItem="icN-Hh-hBB" secondAttribute="bottom" constant="4" id="qx9-kG-ecu"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <accessibility key="accessibilityConfiguration" identifier="customCell"/>
                                         <connections>
-                                            <outlet property="dateLabel" destination="xhj-9i-a9N" id="hg6-rN-Dvk"/>
-                                            <outlet property="nameLabel" destination="icN-Hh-hBB" id="DzR-si-20l"/>
-                                            <outlet property="priceLabel" destination="Hp9-Jt-sdl" id="t1a-GP-x20"/>
+                                            <outlet property="dateLabel" destination="xhj-9i-a9N" id="3iG-hJ-4q3"/>
+                                            <outlet property="nameLabel" destination="icN-Hh-hBB" id="4oc-HI-bzA"/>
+                                            <outlet property="priceLabel" destination="Hp9-Jt-sdl" id="hF1-OP-Fhy"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -76,6 +75,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="alC-af-6cK" id="5iu-LP-1Vc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

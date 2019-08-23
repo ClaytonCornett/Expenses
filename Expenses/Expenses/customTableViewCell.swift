@@ -11,8 +11,9 @@ import UIKit
 class customTableViewCell: UITableViewCell {
 
     @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+  
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
